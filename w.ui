@@ -1,0 +1,143 @@
+<!DOCTYPE UI><UI>
+<class>Form1</class>
+<widget>
+    <class>QWidget</class>
+    <property stdset="1">
+        <name>name</name>
+        <cstring>Form1</cstring>
+    </property>
+    <property stdset="1">
+        <name>geometry</name>
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>262</width>
+            <height>479</height>
+        </rect>
+    </property>
+    <property stdset="1">
+        <name>caption</name>
+        <string>Form1</string>
+    </property>
+    <widget>
+        <class>QFrame</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>Frame3</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>10</x>
+                <y>0</y>
+                <width>231</width>
+                <height>120</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>frameShape</name>
+            <enum>StyledPanel</enum>
+        </property>
+        <property stdset="1">
+            <name>frameShadow</name>
+            <enum>Raised</enum>
+        </property>
+        <widget>
+            <class>QSlider</class>
+            <property stdset="1">
+                <name>name</name>
+                <cstring>Slider1</cstring>
+            </property>
+            <property stdset="1">
+                <name>geometry</name>
+                <rect>
+                    <x>10</x>
+                    <y>50</y>
+                    <width>211</width>
+                    <height>24</height>
+                </rect>
+            </property>
+            <property stdset="1">
+                <name>orientation</name>
+                <enum>Horizontal</enum>
+            </property>
+        </widget>
+        <widget>
+            <class>QLCDNumber</class>
+            <property stdset="1">
+                <name>name</name>
+                <cstring>LCDNumber1</cstring>
+            </property>
+            <property stdset="1">
+                <name>geometry</name>
+                <rect>
+                    <x>140</x>
+                    <y>10</y>
+                    <width>81</width>
+                    <height>31</height>
+                </rect>
+            </property>
+        </widget>
+        <widget>
+            <class>QPushButton</class>
+            <property stdset="1">
+                <name>name</name>
+                <cstring>PushButton1</cstring>
+            </property>
+            <property stdset="1">
+                <name>geometry</name>
+                <rect>
+                    <x>130</x>
+                    <y>80</y>
+                    <width>91</width>
+                    <height>31</height>
+                </rect>
+            </property>
+            <property stdset="1">
+                <name>text</name>
+                <string>PushButton1</string>
+            </property>
+        </widget>
+        <widget>
+            <class>QLabel</class>
+            <property stdset="1">
+                <name>name</name>
+                <cstring>TextLabel1</cstring>
+            </property>
+            <property stdset="1">
+                <name>geometry</name>
+                <rect>
+                    <x>10</x>
+                    <y>10</y>
+                    <width>130</width>
+                    <height>30</height>
+                </rect>
+            </property>
+            <property stdset="1">
+                <name>text</name>
+                <string>TextLabel1</string>
+            </property>
+        </widget>
+        <widget>
+            <class>QLabel</class>
+            <property stdset="1">
+                <name>name</name>
+                <cstring>TextLabel2</cstring>
+            </property>
+            <property stdset="1">
+                <name>geometry</name>
+                <rect>
+                    <x>10</x>
+                    <y>80</y>
+                    <width>121</width>
+                    <height>30</height>
+                </rect>
+            </property>
+            <property stdset="1">
+                <name>text</name>
+                <string>TextLabel2</string>
+            </property>
+        </widget>
+    </widget>
+</widget>
+</UI>
